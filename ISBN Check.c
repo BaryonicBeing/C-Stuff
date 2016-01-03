@@ -10,7 +10,7 @@ int checkIsbn(char* isbn){
 }
 
 int main(void){
-	char input[10];
+	char input[11];
 	printf("Please enter your ISBN number:\n");
 	scanf("%s", input);
 	printf("%d\n", checkIsbn(input));
